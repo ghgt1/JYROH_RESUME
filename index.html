@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>노준영의 이력서</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- id는 유일. class는 중복가능. -->
+    <div class="intro-box">
+      <div id="name-box">
+        <h1>노준영</h1>
+        <!-- 아래 두태그가 다른 태그인데 브라우저에 똑같이보임. 이럴때 CSS로 꾸며줘야함. -->
+        <p class="name-text">Front-End Developer</p>
+      </div>
+      <section>
+        <h2>ABOUT ME</h2>
+        <p class="about-me-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          deleniti sequi illo saepe amet quisquam nesciunt aperiam, deserunt
+          expedita animi nobis qui voluptas quis doloribus. Odio aliquam totam
+          quos consectetur.
+        </p>
+      </section>
+      <section>
+        <h2>ACTIVITIES</h2>
+        <!-- float css특성때문에 서로간에 간섭가능. float는 일정한 크기만큼의 block영역을 가지기 때문임. -->
+        <!-- 이런경우 float특성들을 묶어서 overflow: hidden을 부여하면 됨. -->
+        <div class="float-wrap">
+          <p class="title-text">ICPC Sinchon</p>
+          <p class="year-text">2021</p>
+        </div>
+        <p class="desc-text">Summer Camp Novice</p>
+        <p class="desc-subtext">Coding test and Algorithm</p>
+        <div class="float-wrap">
+          <p class="title-text">Python Algorithm Study</p>
+          <p class="year-text">2022</p>
+        </div>
+        <p class="desc-text">Study team</p>
+        <p class="desc-subtext">Coding test</p>
+        <div class="float-wrap">
+          <p class="title-text">Yonsei Esports LAB</p>
+          <p class="year-text">2022</p>
+        </div>
+        <p class="desc-text">Research Student & Intern</p>
+        <p class="desc-subtext">Arduino, Python</p>
+        <div class="float-wrap">
+          <p class="title-text">SUAPC 2022 Summer</p>
+          <p class="year-text">2022</p>
+        </div>
+        <p class="desc-text">Contest Participant</p>
+        <p class="desc-subtext">Algorithm</p>
+      </section>
+
+      <section>
+        <h2>EDUCATION</h2>
+        <div class="float-wrap">
+          <p class="title-text">Kyeongi High School</p>
+          <p class="year-text">2013 - 2016</p>
+        </div>
+        <p class="desc-text">Natural Sciences</p>
+        <div class="float-wrap">
+          <p class="title-text">Yonsei University</p>
+          <p class="year-text">2017 - Now</p>
+        </div>
+        <p class="desc-text">Department of Engineering</p>
+        <p class="desc-subtext">Computer Science</p>
+      </section>
+
+      <section>
+        <h2>AWARDS</h2>
+        <div class="float-wrap">
+          <p class="title-text">Yonsei University 1st Semester CAPSTONE</p>
+          <p class="year-text">2022</p>
+        </div>
+        <p class="desc-text">Best Project Award</p>
+      </section>
+      <section>
+        <h2>CONTACT</h2>
+        <div class="float-wrap">
+          <p class="title-text">Email</p>
+          <p class="year-text">ghgt1@naver.com</p>
+        </div>
+        <div class="float-wrap">
+          <p class="title-text">Tel</p>
+          <p class="year-text">010-2802-3673</p>
+        </div>
+        <div class="sns-wrap">
+          <a
+            href="https://www.facebook.com/profile.php?id=100002965994680"
+            target="_blank"
+            ><img class="sns-image" src="images/facebook.png" alt="페이스북"
+          /></a>
+          <a href="https://www.instagram.com/iam_rohtan/?hl=ko" target="_blank"
+            ><img class="sns-image" src="images/insta.png" alt="인스타그램"
+          /></a>
+          <a href="https://github.com/ghgt1" target="_blank"
+            ><img class="sns-image" src="images/github.png" alt="깃허브"
+          /></a>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>copyright JYROH. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
